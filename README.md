@@ -1,8 +1,2 @@
 # Portico-Swap
-Demo Swap for Portico Exchange
-
-Pre requisite
-
--Node.js
-
-
+Demo Swap  and PoC for Portico Exchange
