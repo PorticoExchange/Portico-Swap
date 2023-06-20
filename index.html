@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portico Exchange - Demo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Portico Exchange - Demo</h1>
+    <form>
+      <label for="Node">Type of Layer</label>
+      <input type="layer" id="node" name="layer" required>
+      
+      <label for="Nostr">Peer</label>
+      <input type="peer" id="peer" ame="peer" required>
+
+      <label for="INVOICE">Invoice:</label>
+      <input type="invoicb" id="invoice" ame="invoice" required>
+
+      <label for="plan">Select a currency:</label>
+      <select id="plan" name="currency" required>
+        <option value="">Choose a currency</option>
+        <option value="basic">L-BTC</option>
+        <option value="pro">BTC-LN</option>
+        <option value="super">BTC</option>
+      </select>
+      <input type="submit" value="Swap">
+    </form>
+  </div>
+</body>
